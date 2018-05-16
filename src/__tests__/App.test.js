@@ -14,8 +14,9 @@ describe('App', () => {
   });
 
   describe('Initializes state successfully', () =>{
-    it('initializes results as an array of the event.json', () => {
-      expect(app.state('results')).toHaveProperty("event.areas-covered")
+    it('initializes results that include the event.json and images', () => {
+      expect(app.state('results')).toHaveProperty("data.event.areas-covered");
+      expect(app.state('images')).toHaveProperty("logo");
     });
   });
 
