@@ -1,4 +1,4 @@
-{
+const data = {
   "event": {
     "areas-covered": "Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
     "date-time": {
@@ -27,4 +27,6 @@
       "transport-station": "Grand Street (L train)"
     }
   }
-}
+};
+
+export default data;

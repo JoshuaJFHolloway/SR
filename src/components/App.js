@@ -1,53 +1,27 @@
 import React, {Component} from 'react';
+import Logo from './Logo'
+import data from '../event'
 
 class App extends Component {
   constructor() {
     super();
 
-    this.state ={
+    this.state = {
       results: {
-          "event": {
-            "areas-covered": "Brooklyn, Williamsburg, Queens, Jamaica, Astoria, Bronx, Long Island.",
-            "date-time": {
-              "am-pm": "pm",
-              "clock24": 0,
-              "datetime": "2017-06-27T19:00:00",
-              "day": "tuesday",
-              "day-short": "tues",
-              "end-time": "9",
-              "month": "june",
-              "start-time": "7"
-            },
-            "location": {
-              "address": {
-                "city": "Brooklyn",
-                "geoloc": "40.7134658,-73.9415119",
-                "state": "New York",
-                "state-short": "NY",
-                "street-name": "Bushwick Ave",
-                "street-name-2": "Ainslie Street",
-                "street-number": "46",
-                "zip-code": "11211"
-              },
-              "directions": "L train to Grand Avenue. Walk 2 blocks north on Bushwick Avenue, bar is on the left on the corner of Bushwick and Ainslie.",
-              "name": "Matt Torrey's",
-              "transport-station": "Grand Street (L train)"
-            }
-          }
-        }
-
-
-
-
-
-
+        data
+      }
+        ,
+      images: {
+        logo: "../../assets/logo.png",
+        bar_photo: "../../assets/bar-photo.jpg"
+      }
     }
-  }
+  };
 
 render() {
   return (
     <div>
-      <div>Hello</div>
+      <Logo/>
     </div>
     )
   }
