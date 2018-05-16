@@ -17,14 +17,20 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Logo />,
+      "children": <Logo
+        alt="SpareRoom Logo"
+        logo="logo.png"
+/>,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
-      "props": Object {},
+      "props": Object {
+        "alt": "SpareRoom Logo",
+        "logo": "logo.png",
+      },
       "ref": null,
       "rendered": null,
       "type": [Function],
@@ -37,14 +43,20 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Logo />,
+        "children": <Logo
+          alt="SpareRoom Logo"
+          logo="logo.png"
+/>,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "alt": "SpareRoom Logo",
+          "logo": "logo.png",
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
