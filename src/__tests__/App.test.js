@@ -9,4 +9,10 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
+  describe('Initializes state successfully', () =>{
+    it('initializes results as an array of the event.json', () => {
+      expect(app.state('results')).toHaveProperty("event.areas-covered")
+    });
+  });
+
 });
