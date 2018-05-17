@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import data from './../event'
-import Logo from './Logo'
-import SpareRoomLogo from './../assets/logo.png'
-import BarPhoto from './../assets/bar-photo.jpg'
+import data from './../event';
+import Logo from './Logo';
+import Toolbar from './Toolbar';
+import SpareRoomLogo from './../assets/logo.png';
+import BarPhoto from './../assets/bar-photo.jpg';
 
 class App extends Component {
   constructor() {
@@ -21,6 +22,8 @@ class App extends Component {
           logo = {SpareRoomLogo}
           alt = {"SpareRoom Logo"}
         />
+        <Toolbar
+          />
       </div>
     )
   }
