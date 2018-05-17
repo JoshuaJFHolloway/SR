@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import data from './../event';
-import Logo from './Logo';
+import Picture from './Picture';
 import Toolbar from './Toolbar';
 import Event from './Event';
 import SpareRoomLogo from './../assets/logo.png';
@@ -42,8 +42,8 @@ class App extends Component {
 
     return (
       <div>
-        <Logo
-          logo = {SpareRoomLogo}
+        <Picture
+          picture = {SpareRoomLogo}
           alt = {"SpareRoom Logo"}
         />
         <Toolbar
@@ -68,7 +68,7 @@ class App extends Component {
         <div>
           {params.eventsNestedBarClicked && params.eventsToolbarClicked ?
             <Event
-
+              barPhoto={BarPhoto}
               /> : null}
         </div>
 
