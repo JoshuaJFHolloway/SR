@@ -50,10 +50,13 @@ Thank you
 
 ### Usage
 
-- Run 'npm install'
-- Run 'npm start'
+- Run 'npm install' in your terminal
+- Run 'npm start' in your terminal 
 - Visit 'localhost:3000' in your browser to see the app
 
+### Testing
+
+- Run 'npm t' in your terminal to run the tests
 
 ## My approach
 
@@ -97,6 +100,25 @@ beneath it.
 
 ### Future Additions
 
+There is a lot more of this to do due to time constraints. I was given this task yesterday but was unable to
+start work on it until yesterday evening and this morning. This is because I was doing a different tech test
+for another company yesterday and was then at their interview during the day until evening. 
+
+Hence, with more time I would:
+
+1. Create the Event.js file which would include the entirety of the web page below the second toolbar.
+
+- It would inherit as props all the .json it requires and then feed it to the components that require it.
+
+2. Create the components that sit within the Event.js file. These would be two components with many children.
+
+- The two components would be split up into the left and right side. Left side being the form and the right
+side being the information and map.
+
+3. Make it so that the form updates the state and holds the input of it. Ready to be submitted to any database
+in the future. 
+
+4. Run a test coverage program to see where my tests are lacking.
 
 ### Screenshots of use!
 
@@ -104,7 +126,3 @@ beneath it.
 ### Contributors
 
 Josh Holloway
-
-
-
-
