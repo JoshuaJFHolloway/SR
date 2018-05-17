@@ -13,8 +13,12 @@ describe('App', () => {
     expect(app.find('Logo').exists()).toBe(true);
   });
 
+  it('renders a toolbar component', () => {
+    expect(app.find('Toolbar').exists()).toBe(true);
+  });
+
   describe('Initializes state successfully', () =>{
-    it('initializes results that include the event.json and images', () => {
+    it('initializes results that include the event.json', () => {
       expect(app.state('results')).toHaveProperty("event.areas-covered");
     });
   });
