@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import data from './../event';
+import getData from './Helper';
 import Picture from './Picture';
 import Toolbar from './Toolbar';
 import Event from './Event';
@@ -14,7 +14,7 @@ class App extends Component {
 
     this.state = {
 
-      results: data,
+      results: undefined,
       params: {
         eventsToolbarClicked: false,
         eventsNestedBarClicked: false
@@ -32,8 +32,8 @@ class App extends Component {
       params['eventsNestedBarClicked'] = false;
       this.setState({params});
     }
-
     this.setState({params});
+    this.setState({results: getData()})
   };
 
   render() {
@@ -69,6 +69,7 @@ class App extends Component {
           {params.eventsNestedBarClicked && params.eventsToolbarClicked ?
             <Event
               barPhoto={BarPhoto}
+              jsonData = {this.state.results}
               /> : null}
         </div>
 

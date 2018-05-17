@@ -18,9 +18,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Logo
+        <Picture
           alt="SpareRoom Logo"
-          logo="logo.png"
+          picture="logo.png"
 />,
         <Toolbar
           className2="eventsToolbarClicked"
@@ -48,7 +48,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "alt": "SpareRoom Logo",
-          "logo": "logo.png",
+          "picture": "logo.png",
         },
         "ref": null,
         "rendered": null,
@@ -105,9 +105,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Logo
+          <Picture
             alt="SpareRoom Logo"
-            logo="logo.png"
+            picture="logo.png"
 />,
           <Toolbar
             className2="eventsToolbarClicked"
@@ -135,7 +135,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "alt": "SpareRoom Logo",
-            "logo": "logo.png",
+            "picture": "logo.png",
           },
           "ref": null,
           "rendered": null,
