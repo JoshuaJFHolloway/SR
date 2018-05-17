@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders correctly 1`] = `
+exports[`App Rendering components renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -22,7 +22,22 @@ ShallowWrapper {
           alt="SpareRoom Logo"
           logo="logo.png"
 />,
-        <Toolbar />,
+        <Toolbar
+          className2="eventsToolbarClicked"
+          eventHandler={[Function]}
+          tab1="Home"
+          tab2="Events"
+          width="19%"
+/>,
+        <div
+          style={
+                    Object {
+                              "marginTop": "10px",
+                              "verticalAlign": "bottom",
+                            }
+          }
+/>,
+        <div />,
       ],
     },
     "ref": null,
@@ -43,10 +58,42 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "className2": "eventsToolbarClicked",
+          "eventHandler": [Function],
+          "tab1": "Home",
+          "tab2": "Events",
+          "width": "19%",
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": null,
+          "style": Object {
+            "marginTop": "10px",
+            "verticalAlign": "bottom",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": null,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
       },
     ],
     "type": "div",
@@ -62,7 +109,22 @@ ShallowWrapper {
             alt="SpareRoom Logo"
             logo="logo.png"
 />,
-          <Toolbar />,
+          <Toolbar
+            className2="eventsToolbarClicked"
+            eventHandler={[Function]}
+            tab1="Home"
+            tab2="Events"
+            width="19%"
+/>,
+          <div
+            style={
+                        Object {
+                                    "marginTop": "10px",
+                                    "verticalAlign": "bottom",
+                                  }
+            }
+/>,
+          <div />,
         ],
       },
       "ref": null,
@@ -83,10 +145,42 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "className2": "eventsToolbarClicked",
+            "eventHandler": [Function],
+            "tab1": "Home",
+            "tab2": "Events",
+            "width": "19%",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": null,
+            "style": Object {
+              "marginTop": "10px",
+              "verticalAlign": "bottom",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
         },
       ],
       "type": "div",

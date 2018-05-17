@@ -16,9 +16,134 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+          onClick={undefined}
+          style={
+                    Object {
+                              "display": "inline-block",
+                              "verticalAlign": "top",
+                              "width": "undefined",
+                            }
+          }
+/>,
+        <div
+          className={undefined}
+          onClick={undefined}
+          style={
+                    Object {
+                              "display": "inline-block",
+                              "verticalAlign": "top",
+                              "width": "undefined",
+                            }
+          }
+/>,
+        <div
+          className={undefined}
+          onClick={undefined}
+          style={
+                    Object {
+                              "display": "inline-block",
+                              "verticalAlign": "top",
+                              "width": "undefined",
+                            }
+          }
+/>,
+        <div
+          className={undefined}
+          onClick={undefined}
+          style={
+                    Object {
+                              "display": "inline-block",
+                              "verticalAlign": "top",
+                              "width": "undefined",
+                            }
+          }
+/>,
+      ],
+      "style": Object {
+        "display": "inline-block",
+        "verticalAlign": "top",
+        "width": "undefined",
+      },
+    },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": undefined,
+          "onClick": undefined,
+          "style": Object {
+            "display": "inline-block",
+            "verticalAlign": "top",
+            "width": "undefined",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": undefined,
+          "onClick": undefined,
+          "style": Object {
+            "display": "inline-block",
+            "verticalAlign": "top",
+            "width": "undefined",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": undefined,
+          "onClick": undefined,
+          "style": Object {
+            "display": "inline-block",
+            "verticalAlign": "top",
+            "width": "undefined",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": undefined,
+          "onClick": undefined,
+          "style": Object {
+            "display": "inline-block",
+            "verticalAlign": "top",
+            "width": "undefined",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -26,9 +151,134 @@ ShallowWrapper {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+            onClick={undefined}
+            style={
+                        Object {
+                                    "display": "inline-block",
+                                    "verticalAlign": "top",
+                                    "width": "undefined",
+                                  }
+            }
+/>,
+          <div
+            className={undefined}
+            onClick={undefined}
+            style={
+                        Object {
+                                    "display": "inline-block",
+                                    "verticalAlign": "top",
+                                    "width": "undefined",
+                                  }
+            }
+/>,
+          <div
+            className={undefined}
+            onClick={undefined}
+            style={
+                        Object {
+                                    "display": "inline-block",
+                                    "verticalAlign": "top",
+                                    "width": "undefined",
+                                  }
+            }
+/>,
+          <div
+            className={undefined}
+            onClick={undefined}
+            style={
+                        Object {
+                                    "display": "inline-block",
+                                    "verticalAlign": "top",
+                                    "width": "undefined",
+                                  }
+            }
+/>,
+        ],
+        "style": Object {
+          "display": "inline-block",
+          "verticalAlign": "top",
+          "width": "undefined",
+        },
+      },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "onClick": undefined,
+            "style": Object {
+              "display": "inline-block",
+              "verticalAlign": "top",
+              "width": "undefined",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "onClick": undefined,
+            "style": Object {
+              "display": "inline-block",
+              "verticalAlign": "top",
+              "width": "undefined",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "onClick": undefined,
+            "style": Object {
+              "display": "inline-block",
+              "verticalAlign": "top",
+              "width": "undefined",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "onClick": undefined,
+            "style": Object {
+              "display": "inline-block",
+              "verticalAlign": "top",
+              "width": "undefined",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],
